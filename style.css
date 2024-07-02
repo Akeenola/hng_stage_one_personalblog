@@ -1,0 +1,33 @@
+body{width: 100%;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+.header{margin: 2px;display: flex;justify-content: space-between;
+    width: 100%;background-color:yellow;}
+.header-1{float: left;padding: 5px;width: 60%;display: flex;}
+.header-1 h1{font-size: 2em;font-weight: bolder;display: inline;padding: 1em;}
+.header-2{width: 50%;background-color:aqua;}
+.header-2 h1{color: yellow;float: right;text-transform: capitalize;
+    font-size: 2em;padding: 2em;}
+.section{width: 100%;background-color: rgb(197, 206, 197);}
+.section-1{width: 90%;display: flex;justify-content: center;}
+.section-1 .left{width: 60%;}
+.section-1 h1{font-size: 4em;color: rgb(19, 19, 17);
+   font-family: serif;width: 100%;margin-left: 1em;
+   justify-items: center;padding: 0px;}
+.section-1 h1 em{color: rgb(171, 180, 177);}
+.section-1 .right{width: 40%; margin: 2em;padding: 3em;}
+.section-1 img{display:flex;position: relative;float: left;}
+.section-1 ul{width: 100%;display: flex;;margin: 2em; text-decoration: none;list-style-type:none;}
+.section-1 ul li{color: rgb(69, 70, 66);font-size: 15px;
+    font-weight: bolder;padding: 10px;text-transform: uppercase;
+    background-color: yellow;margin: 10px;border-radius: 10%;box-shadow: 5px red solid;}
+.section-2{background-color: rgb(221, 209, 209);width: 90%;
+    display: flex;text-align: center;margin: 2em;}
+h1#goals {width: 100%;text-align: center;color: yellow;
+    background-color: rgb(54, 56, 55);display: block;}
+h1#goals em{color: aqua;}
+.section-2 .left{width: 30%;}
+.section-2 .right{width: 70%;}
+.footer{background-color: aqua;justify-content: space-between;width: 100%;}
+.footer ol{display: flex;width: 60%;}
+.footer ol li{list-style: none;margin: 2em;}
+.footer ol li h1{display: flex;}
+.footer p{width: 50%;display: flex;}

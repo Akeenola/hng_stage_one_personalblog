@@ -21,21 +21,26 @@
     <!--sections-->
     <div class="section">
         <div class="section-1">
-            <div class="left">
-                <h1>I am developer </h1>
-                <h1>Olabisi A. Akinola</h1>
-            
-            <ul>
-                <li>seasoned web developer</li>
-                <li>graduate of computer science from university of ibadan</li>
-                <li>trained under well-blended SE curriculum in ALX and ZURI</li>
-                <li>Remote internship with awar-winning HNG <em>(cohort 11)</em> </li>
-            </ul>
+            <div class="section-1-inner">
+                <div class="left">
+                    <h1>I am developer </h1>
+                    <h1>Olabisi A. Akinola</h1>
+                
+                
+                </div>
+                <div class="right">
+                    <img src="img/akeenola.jpg" alt="Akeenola">
+                    
+                </div>
             </div>
-            <div class="right">
-                <img src="img/akeenola.jpg" alt="Akeenola">
+            <div class="quality">
+                <ul>
+                    <li><a href="#">seasoned web developer</a> </li>
+                    <li><a href="#">graduate of computer science from university of ibadan</a></li>
+                    <li><a href="#">trained under well-blended SE curriculum in ALX and ZURI</a></li>
+                    <li><a href="https:/hng.tech/learn" data-testid="hngLink">Remote internship with awar-winning <em>HNG (cohort 11)</em> </a></li>
+                </ul>
             </div>
-            
         </div>
         <h1 id="goals">My Goals in the next 2 years <em>>>>>>>>>>>>></em></h1>
 
@@ -107,14 +112,19 @@
     </div>
     <!--footer-->
     <div class="footer">
-        <div></div>
+        
         <ol>
-            <li>Slack Name:<h1>Olabisi Akinola</h1></li>
+            <li><img data-testid="slackProfilePicture" src="img/akeen.jpg" alt="Akeenola" width="180" height="200"></li>
+            <li data-testid="slackDisplayName"><h1><span>Slack Name:</span> Olabisi Akinola</h1></li>
+            <li data-testid="slackDisplayEmail"><a href="mailto:akinola.olabisi@gmail.com" data-testid="slackEmail">akinola.olabisi@gmail.com</a></li>
+            <li><a href="#" data-testid="keywordLink">Dog</a></li>
+            <li><a href="#" data-testid="scrapeanywebLink">scrapeanyweb</a></li> 
             
-            <li>slack pix:<img src="img/akeen.jpg" alt="Akeenola" width="180" height="200"></li>
+            
             
         </ol>
-        <p id="date">&copy; Olabisi Akinola</p>
+        <p id="day" data-testid="currentDay"></p>
+        <p id="date" data-testid="currentTimeUTC">&copy; Olabisi Akinola</p>
       
     </div>
     <script src="action.js"></script>
